@@ -223,6 +223,7 @@ def welcome_info() -> None:
         option: int = get_user_option()
         if option == 1:
             entering_tokens()
+            break
         elif option == 2:
             break
 
